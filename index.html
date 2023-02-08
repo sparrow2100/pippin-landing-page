@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/047911bba3.js" crossorigin="anonymous"></script>
+    <title>Pippin the dog</title>
+  </head>
+  <body>
+    <div class="banner"><h1><i class="fa-solid fa-paw"></i>&nbsp Pippin &nbsp<i class="fa-solid fa-paw"></i></h1></div>
+    <div class="yellow">
+      <div class="profile-flex">
+        <div class="for-profile">
+          <img
+            class="pip-grass"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/753/original/pippin_in_grass.jpg?1670353472"
+          />
+        </div>
+        <div class="bio">
+          <h2 class="blue">About me!</h2>
+          <p>
+            Hi Everyone! I am a dog living with my family in High River,
+            Alberta, Canada. I am an old guy now (sixteen years old!) but I have
+            lived a life full of adventure, fun, and naps, and I still have
+            years of love to give 💙 Some of my favourite things are long walks
+            in nature, peanut butter, and lying in the snow to cool myself down.
+            I hope you enjoy my site and it brings you some joy today!
+            <div><span class="blue"
+              >P.S. Yes, I am named after the Hobbit from Lord of the
+              Rings</span
+            ></div>
+          </p>
+        </div>
+      </div>
+      <div class="button-div">
+        <a href="#dog-emojis" class="button">dog emojis</a
+        ><a href="#adventures" class="button">adventures</a>
+      </div>
+      <br />
+      <br />
+    </div>
+    <div class="whitespace">
+      <div class="dog-emojis"><h2 id = "dog-emojis">Pippin's Dog Emojis</h2></div>
+
+      <div class="emoji-section">
+        <div class="faces">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/573/original/emoji-image.jpg?1670726250"
+            id="emoji-image"
+            class="rounded emoji-image"
+          />
+        </div>
+        <div class="emojis">
+          <div class="emoji-row">
+            <div class="emoji sunglasses">😎</div>
+
+            <div class="emoji grin">😁</div>
+
+            <div class="emoji yum">😋</div>
+
+            <div class="emoji cute">🥺</div>
+          </div>
+          <div class="emoji-row">
+            <div class="emoji shocked">😮</div>
+
+            <div class="emoji nails">💅</div>
+
+            <div class="emoji sleepy">😴</div>
+
+            <div class="emoji cold">🥶</div>
+          </div>
+          <div class="emoji-row">
+            <div class="emoji crazy">😵‍💫</div>
+
+            <div class="emoji nice">🙂</div>
+
+            <div class="emoji meh">😑</div>
+
+            <div class="emoji weird">🥴</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-1 empty"></div>
+    </div>
+    <div class="yellow">
+      <div class="adventuring">
+        <h2 id = "adventures">Adventuring With Pippin</h2>
+        <div class="adventure-flex">
+          <div class="adventure">
+            <img
+              class="adventure-1"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/900/original/adventure-1.jpg?1670432589"
+            />
+            <p class = "blue">Cypress Hills, Saskatchewan</p>
+          </div>
+          <div class="adventure">
+            <img
+              class="adventure-2"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/901/original/adventure-2.jpg?1670432598"
+            />
+            <p class = "blue">High River, Alberta</p>
+          </div>
+          <div class="adventure">
+            <img
+              class="adventure-3"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/902/original/adventure-3.jpg?1670432607"
+            />
+            <p class = "blue">Nanton, Alberta</p>
+          </div>
+          <div class="adventure">
+            <img
+              class="adventure-4"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/903/original/adventure-4.jpg?1670432616"
+            />
+            <p class = "blue">Nakusp, British Columbia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    let image = document.querySelector(".emoji-image");
+
+    function toSunglasses() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/903/original/adventure-4.jpg?1670432616";
+    }
+
+    let sunglasses = document.querySelector(".sunglasses");
+    sunglasses.addEventListener("click", toSunglasses);
+
+    function toGrin() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/580/original/%F0%9F%98%81.jpg?1670727150";
+    }
+
+    let grin = document.querySelector(".grin");
+    grin.addEventListener("click", toGrin);
+
+    function toYum() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/581/original/%F0%9F%98%8B.jpg?1670727160";
+    }
+
+    let yum = document.querySelector(".yum");
+    yum.addEventListener("click", toYum);
+
+    function toCute() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/582/original/%F0%9F%A5%BA.jpg?1670727168";
+    }
+
+    let cute = document.querySelector(".cute");
+    cute.addEventListener("click", toCute);
+
+    function toShocked() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/583/original/%F0%9F%98%AE.jpg?1670727749";
+    }
+
+    let nails = document.querySelector(".nails");
+    nails.addEventListener("click", toNails);
+
+    function toNails() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/584/original/%F0%9F%92%85.jpg?1670727796";
+    }
+
+    let shocked = document.querySelector(".shocked");
+    shocked.addEventListener("click", toShocked);
+
+    function toSleepy() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/585/original/%F0%9F%98%B4.jpg?1670727855";
+    }
+    let sleepy = document.querySelector(".sleepy");
+    sleepy.addEventListener("click", toSleepy);
+
+    function toCold() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/586/original/%F0%9F%A5%B6.jpg?1670727896";
+    }
+    let cold = document.querySelector(".cold");
+    cold.addEventListener("click", toCold);
+
+    function toCrazy() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/587/original/%F0%9F%98%B5%E2%80%8D%F0%9F%92%AB.jpg?1670728259";
+    }
+    let crazy = document.querySelector(".crazy");
+    crazy.addEventListener("click", toCrazy);
+
+    function toNice() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/683/original/%F0%9F%99%82.jpg?1670774783";
+    }
+    let nice = document.querySelector(".nice");
+    nice.addEventListener("click", toNice);
+
+    function toMeh() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/684/original/%F0%9F%98%91.jpg?1670774844";
+    }
+    let meh = document.querySelector(".meh");
+    meh.addEventListener("click", toMeh);
+
+    function toWeird() {
+      document.getElementById("emoji-image").src =
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/685/original/%F0%9F%A5%B4.jpg?1670774936";
+    }
+    let weird = document.querySelector(".weird");
+    weird.addEventListener("click", toWeird);
+  </script>
+</html>

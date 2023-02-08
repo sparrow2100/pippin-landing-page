@@ -1,0 +1,268 @@
+:root {
+  --background: #fffeef;
+  --hilight: #fffaa5;
+  --accent: #6a98c4;
+}
+
+* {
+  font-family: nunito, sans-serif;
+}
+
+.button {
+  background-color: var(--accent);
+  color: black;
+  text-decoration: none;
+  width: 150px;
+  height: 100px;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.button:hover {
+  background-color: #618ab0;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.button-div {
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 150px;
+  margin-left: 570px;
+}
+
+.banner {
+  width: 100% !important;
+  padding-right: 60px;
+  height: 120px;
+  background-color: var(--hilight);
+  margin: 0px;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+h1 {
+  background-color: var(--hilight);
+  margin: 0;
+  padding-top: 30px;
+  font-size: 50px;
+
+  color: var(--accent);
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.pip-grass {
+  margin: 0 auto;
+  height: 350px;
+  width: 350px;
+  border-radius: 175px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-left: 75px;
+  margin-top: 75px;
+  border: 3px solid var(--accent);
+}
+
+.profile-flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.for-profile {
+  background-color: var(--hilight);
+  height: 500px;
+  width: 500px;
+  border-radius: 250px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.blue {
+  color: var(--accent);
+}
+
+.bio {
+  width: 500px;
+  height: 390px;
+  background-color: var(--hilight);
+  color: black;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+  text-align: center;
+  margin-top: 125px;
+  margin-right: 35px;
+}
+
+p {
+  line-height: 2;
+  font-size: 18px;
+}
+
+.yellow {
+  background-color: var(--background);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  width: 100%;
+  margin: 0px;
+  padding: 25px;
+}
+
+.whitespace {
+  padding-top: 45px;
+  padding-bottom: 105px;
+}
+
+.dog-emojis {
+  text-align: center;
+}
+
+.emoji {
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 15px;
+  font-size: 28px;
+}
+
+.emoji:hover {
+  background-color: var(--hilight);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.faces {
+  background-color: var(--hilight);
+  border-radius: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 400px;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.emoji-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.emojis {
+  margin-top: 120px;
+  background-color: var(--background);
+  padding: 25px;
+  height: 190px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.emoji-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.emoji-image {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.line {
+  border-top: 3px dashed var(--accent);
+  margin-top: 85px;
+}
+
+.adventuring {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.adventure-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  background-color: var(--hilight);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.adventure-1 {
+  margin: 0 auto;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border: 3px solid var(--accent);
+}
+
+.adventure-2 {
+  margin: 0 auto;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border: 3px solid var(--accent);
+}
+
+.adventure-3 {
+  margin: 0 auto;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border: 3px solid var(--accent);
+}
+
+.adventure-4 {
+  margin: 0 auto;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border: 3px solid var(--accent);
+}
